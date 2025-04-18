@@ -1,0 +1,27 @@
+# macOS Finder 設定ファイル
+.DS_Store
+
+# オブジェクトファイル
+*.o
+*.obj
+
+# 実行ファイル (OS共通)
+*.exe
+*.out
+a.out
+
+# ビルドディレクトリ (よく使われる名前)
+build/
+bin/
+
+# ライブラリファイル
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE/エディタ設定 (代表的なもの)
+.vs/
+.vscode/ # settings.jsonなど共有したい場合は除外ルール追加
+.idea/
